@@ -6,7 +6,7 @@ IJCAI-PRICAI 2020<br/>
 ## Overview
 <div align=center><img src="pngs/overview.png"></div>
 
-In this paper, we propose Multi-variate Probit based Variational AutoEncoder (MPVAE) to 1) align the label embedding subspace and the feature embedding subspace and 2) handle the correlations between labels via classic Multi-variate Probit model. MPVAE improves both the **embedding space learning** and **label correlation encoding**. Furthermore, $$\beta$$-VAE brings disentanglement effects and could improve the performance compared to vanilla VAE.
+In this paper, we propose Multi-variate Probit based Variational AutoEncoder (MPVAE) to 1) align the label embedding subspace and the feature embedding subspace and 2) handle the correlations between labels via classic Multi-variate Probit model. MPVAE improves both the **embedding space learning** and **label correlation encoding**. Furthermore, $\beta$-VAE brings disentanglement effects and could improve the performance compared to vanilla VAE.
 
 ## Requirements
 - Python 3.7+
@@ -63,7 +63,7 @@ The default hyper-parameters should give reasonably good results.
 If you have any questions, feel free to open an issue.
 
 ## References
-[C2AE](https://github.com/hinanmu/C2AE_tensorflow)
-[LaMP](https://github.com/QData/LaMP)
-[DMVP](https://bitbucket.org/DiChen9412/icml2018_dmvp)
+[C2AE](https://github.com/hinanmu/C2AE_tensorflow)</br>
+[LaMP](https://github.com/QData/LaMP)</br>
+[DMVP](https://bitbucket.org/DiChen9412/icml2018_dmvp)</br>
 [scikit-multilearn](http://scikit.ml/api/skmultilearn.html)
