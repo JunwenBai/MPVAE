@@ -1,4 +1,4 @@
-**MPVAE: Disentangled Variational Autoencoder based Multi-Label Classification with Covariance-Aware Multivariate Probit Model**<br/>
+**MPVAE: Disentangled Variational Autoencoder based Multi-Label Classification with Covariance-Aware Multivariate Probit Model**</br>
 Junwen Bai, Shufeng Kong, Carla Gomes</br>
 IJCAI-PRICAI 2020<br/>
 [[paper]]()
@@ -22,7 +22,7 @@ Older versions might work as well.
 ```git clone``` this repo to your local machine.
 
 ### Obtain and Process the Data
-Download the data from [here](https://www.cs.cornell.edu/~junwen/data/MPVAE_data.tar.gz).
+Download the data from [here](https://www.cs.cornell.edu/~junwen/data/MPVAE_data.tar.gz).</br>
 Or
 ```bash
 wget https://www.cs.cornell.edu/~junwen/data/MPVAE_data.tar.gz
