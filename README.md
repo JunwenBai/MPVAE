@@ -52,7 +52,7 @@ To train the model, use either of the following scripts:
 ```bash
 ./run_train_mirflickr.sh
 ```
-The best validation checkpoint will be written into `run_test_mirflickr.sh` automatically.
+The best validation checkpoint will be written into `run_test_mirflickr.sh` automatically, if one sets the flag `write_to_test_sh` to `True` and specifies the path to the test bash with flag `test_sh_path`.
 
 To test the model, use either of the following scripts:
 ```bash

@@ -43,5 +43,5 @@ tf.app.flags.DEFINE_float('c_coeff', 200., "c_loss coefficient")
 tf.app.flags.DEFINE_float('scale_coeff', 1.0, "mu/logvar scale coefficient")
 tf.app.flags.DEFINE_float('keep_prob', 0.5, "drop out rate")
 tf.app.flags.DEFINE_boolean('resume', False, "whether to resume a ckpt")
-tf.app.flags.DEFINE_boolean('write_to_test_sh', True, 'whether to modify test.sh')
+tf.app.flags.DEFINE_boolean('write_to_test_sh', False, 'whether to modify test.sh')
 
