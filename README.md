@@ -48,13 +48,13 @@ The other 3 `npy` files are just the lists of indices for different splits.
 
 We use mirflickr as the running example here. The detailed descriptions of FLAGS can be found in `config.py`.
 
-To train the model, use either of the following scripts:
+To train the model, use the following scripts:
 ```bash
 ./run_train_mirflickr.sh
 ```
 The best validation checkpoint will be written into `run_test_mirflickr.sh` automatically, if one sets the flag `write_to_test_sh` to `True` and specifies the path to the test bash with flag `test_sh_path`.
 
-To test the model, use either of the following scripts:
+To test the model, use the following scripts:
 ```bash
 ./run_test_mirflickr.sh
 ```
