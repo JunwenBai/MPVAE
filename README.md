@@ -1,7 +1,7 @@
 **MPVAE: Disentangled Variational Autoencoder based Multi-Label Classification with Covariance-Aware Multivariate Probit Model**</br>
 Junwen Bai, Shufeng Kong, Carla Gomes</br>
 IJCAI-PRICAI 2020<br/>
-[[paper]](http://www.cs.cornell.edu/~junwen/papers/Bai_IJCAI20.pdf)
+[[paper]](https://arxiv.org/abs/2007.06126)
 
 ## Overview
 <div align=center><img src="pngs/overview.png"></div>
