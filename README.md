@@ -5,7 +5,6 @@ IJCAI-PRICAI 2020<br/>
 
 ## Overview
 <div align=center><img src="pngs/overview.png"></div>
-
 In this paper, we propose Multi-variate Probit based Variational AutoEncoder (MPVAE) to 1) align the label embedding subspace and the feature embedding subspace and 2) handle the correlations between labels via classic Multi-variate Probit model. MPVAE improves both the **embedding space learning** and **label correlation encoding**. Furthermore, β-VAE brings disentanglement effects and could improve the performance compared to vanilla VAE.
 
 ## Requirements
@@ -16,6 +15,8 @@ In this paper, we propose Multi-variate Probit based Variational AutoEncoder (MP
 
 Older versions might work as well.
 
+A PyTorch implementation of MPVAE can be found [here](https://github.com/wenting-zhao/mpvae).
+
 ## Usage
 
 ### Download this Repository
@@ -24,6 +25,7 @@ Older versions might work as well.
 ### Obtain and Process the Data
 Download the data from [here](https://www.cs.cornell.edu/~junwen/data/MPVAE_data.tar.gz).</br>
 Or
+
 ```bash
 wget https://www.cs.cornell.edu/~junwen/data/MPVAE_data.tar.gz
 ```
@@ -39,7 +41,6 @@ The downloaded datasets are already in the format that can be recognized by the 
 The downloaded datasets are organized in the `npy` format. There are 4 `npy` files in total. One contains the data entries and the others are indices for train, validation and test splits. For example, mirflickr dataset has 4 `npy` files: `mirflickr_data.npy`, `mirflickr_train_idx.npy`, `mirflickr_val_idx.npy`, `mirflickr_test_idx.npy`.
 
 <div align=center><img src="pngs/data_format.png"></div>
-
 The data format is very simple and one can construct his/her own datasets. For each data point in `xxx_data.npy`, the first `meta_offset` (default 0) dims contains some meta information (e.g. index, description, etc.), which will not be considered as part of the features. The following `label_dim` entries indicate the 0/1 labels for this data point. The last `feat_dim` entries are the features used for training.
 
 The other 3 `npy` files are just the lists of indices for different splits.
