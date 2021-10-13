@@ -58,6 +58,19 @@ If you have any questions, feel free to open an issue.
 
 One can further check the scripts under `scripts` folder, which contains tuned hyperparameters for most datasets. 
 
+### Paper
+
+If you find our paper interesting, or will use the datasets we collected, please cite our paper:
+
+```bibtex
+@inproceedings{bai2020disentangled,
+  title={Disentangled Variational Autoencoder based Multi-Label Classification with Covariance-Aware Multivariate Probit Model},
+  author={Bai, Junwen and Kong, Shufeng and Gomes, Carla},
+  booktitle={Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI-20)},
+  year={2020}
+}
+```
+
 ## References
 [C2AE](https://github.com/hinanmu/C2AE_tensorflow)</br>
 [LaMP](https://github.com/QData/LaMP)</br>
