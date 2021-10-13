@@ -1,0 +1,25 @@
+python train.py \
+    --data_dir ../data/sider/sider_data.npy \
+    --train_idx ../data/sider/sider_train_idx.npy \
+    --valid_idx ../data/sider/sider_val_idx.npy \
+    --test_idx ../data/sider/sider_test_idx.npy \
+    --learning_rate 0.0005 \
+    --max_epoch 400 \
+    --meta_offset 0 \
+    --label_dim 27 \
+    --z_dim 27 \
+    --feat_dim 38 \
+    --model_dir model/model_sider/ \
+    --summary_dir summary/summary_sider/ \
+    --visual_dir visualization/visualization_sider/ \
+    --nll_coeff 0.1 \
+    --l2_coeff 1.0 \
+    --c_coeff 20. \
+    --batch_size 128 \
+    --test_sh_path ./run_test_sider.sh \
+    --write_to_test_sh True \
+    --dataname sider \
+    --lr_decay_ratio 0.8 \
+    --lr_decay_times 4. \
+    --check_freq 20 \
+    --keep_prob 0.9

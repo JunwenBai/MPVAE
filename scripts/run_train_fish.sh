@@ -1,0 +1,25 @@
+python train.py \
+    --data_dir ../data/fish/fish_data.npy \
+    --train_idx ../data/fish/fish_train_idx.npy \
+    --valid_idx ../data/fish/fish_val_idx.npy \
+    --test_idx ../data/fish/fish_test_idx.npy \
+    --learning_rate 0.00025 \
+    --max_epoch 250 \
+    --meta_offset 0 \
+    --label_dim 12 \
+    --z_dim 12 \
+    --feat_dim 46 \
+    --model_dir model/model_fish/ \
+    --summary_dir summary/summary_fish/ \
+    --visual_dir visualization/visualization_fish/ \
+    --nll_coeff 10.0 \
+    --l2_coeff 0.01 \
+    --c_coeff 0.1 \
+    --batch_size 128 \
+    --test_sh_path ./run_test_fish.sh \
+    --write_to_test_sh True \
+    --dataname fish \
+    --lr_decay_ratio 0.9 \
+    --lr_decay_times 8. \
+    --check_freq 100 \
+    --keep_prob 0.7

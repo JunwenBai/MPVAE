@@ -1,0 +1,25 @@
+python train.py \
+    --data_dir ../data/nuswide_vector/nuswide_vector_data.npy \
+    --train_idx ../data/nuswide_vector/nuswide_vector_train_idx.npy \
+    --valid_idx ../data/nuswide_vector/nuswide_vector_val_idx.npy \
+    --test_idx ../data/nuswide_vector/nuswide_vector_test_idx.npy \
+    --learning_rate 0.0005 \
+    --max_epoch 50 \
+    --meta_offset 0 \
+    --label_dim 81 \
+    --z_dim 81 \
+    --feat_dim 128 \
+    --model_dir model/model_nuswide_vector/ \
+    --summary_dir summary/summary_nuswide_vector/ \
+    --visual_dir visualization/visualization_nuswide_vector/ \
+    --nll_coeff 0.1 \
+    --l2_coeff 1.0 \
+    --c_coeff 20. \
+    --batch_size 128 \
+    --test_sh_path ./run_test_nuswide_vector.sh \
+    --write_to_test_sh True \
+    --dataname nuswide_vector \
+    --lr_decay_ratio 0.8 \
+    --lr_decay_times 4. \
+    --check_freq 160 \
+    --keep_prob 0.5

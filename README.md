@@ -24,17 +24,7 @@ A PyTorch implementation of MPVAE can be found [here](https://github.com/wenting
 ```git clone``` this repo to your local machine.
 
 ### Obtain and Process the Data
-Download the data from [here](https://www.cs.cornell.edu/~junwen/data/MPVAE_data.tar.gz).</br>
-Or
-
-```bash
-wget https://www.cs.cornell.edu/~junwen/data/MPVAE_data.tar.gz
-```
-
-Untar into the current directory
-```bash
-tar -xvf MPVAE_data.tar.gz -C ./
-```
+All datasets can be downloaded from the Google [drive](https://drive.google.com/drive/folders/1dmok7TnvGrFUyS0RBbGt3PbcdHlVDB77?usp=sharing).
 
 The downloaded datasets are already in the format that can be recognized by the code. 
 
@@ -63,6 +53,10 @@ To test the model, use the following script:
 The default hyper-parameters should give reasonably good results.
 
 If you have any questions, feel free to open an issue.
+
+### Hyperparameters for More Datasets
+
+One can further check the scripts under `scripts` folder, which contains tuned hyperparameters for most datasets. 
 
 ## References
 [C2AE](https://github.com/hinanmu/C2AE_tensorflow)</br>

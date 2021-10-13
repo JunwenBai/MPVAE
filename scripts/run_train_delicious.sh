@@ -1,0 +1,27 @@
+python train.py \
+    --data_dir ../data/delicious/delicious_data.npy \
+    --train_idx ../data/delicious/delicious_train_idx.npy \
+    --valid_idx ../data/delicious/delicious_val_idx.npy \
+    --test_idx ../data/delicious/delicious_test_idx.npy \
+    --learning_rate 0.0005 \
+    --max_epoch 200 \
+    --meta_offset 0 \
+    --label_dim 982 \
+    --z_dim 982 \
+    --feat_dim 501 \
+    --model_dir model/model_delicious/ \
+    --summary_dir summary/summary_delicious/ \
+    --visual_dir visualization/visualization_delicious/ \
+    --nll_coeff 10.0 \
+    --l2_coeff 1.0 \
+    --c_coeff 0.1 \
+    --batch_size 128 \
+    --test_sh_path ./run_test_delicious.sh \
+    --write_to_test_sh True \
+    --dataname delicious \
+    --lr_decay_ratio 0.8 \
+    --lr_decay_times 4. \
+    --check_freq 40 \
+    --keep_prob 0.5 \
+    --n_train_sample 5 \
+    --n_test_sample 5

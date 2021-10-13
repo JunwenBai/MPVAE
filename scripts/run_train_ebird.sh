@@ -1,0 +1,23 @@
+python train.py \
+    --data_dir ../data/ebird/ebird_data.npy \
+    --train_idx ../data/ebird/ebird_train_idx.npy \
+    --valid_idx ../data/ebird/ebird_val_idx.npy \
+    --test_idx ../data/ebird/ebird_test_idx.npy \
+    --learning_rate 0.0015 \
+    --max_epoch 200 \
+    --meta_offset 2 \
+    --label_dim 100 \
+    --z_dim 100 \
+    --feat_dim 15 \
+    --model_dir model/model_ebird/ \
+    --summary_dir summary/summary_ebird/ \
+    --visual_dir visualization/visualization_ebird/ \
+    --nll_coeff 0.1 \
+    --l2_coeff 1.0 \
+    --c_coeff 200. \
+    --batch_size 128 \
+    --test_sh_path ./run_test_ebird.sh \
+    --write_to_test_sh True \
+    --dataname ebird \
+    --keep_prob 1.0 \
+    --check_freq 60

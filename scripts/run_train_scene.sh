@@ -1,0 +1,25 @@
+python train.py \
+    --data_dir ../data/scene/scene_data.npy \
+    --train_idx ../data/scene/scene_train_idx.npy \
+    --valid_idx ../data/scene/scene_val_idx.npy \
+    --test_idx ../data/scene/scene_test_idx.npy \
+    --learning_rate 0.002 \
+    --max_epoch 400 \
+    --meta_offset 0 \
+    --label_dim 6 \
+    --z_dim 6 \
+    --feat_dim 294 \
+    --model_dir model/model_scene/ \
+    --summary_dir summary/summary_scene/ \
+    --visual_dir visualization/visualization_scene/ \
+    --nll_coeff 0.1 \
+    --l2_coeff 1.0 \
+    --c_coeff 40. \
+    --batch_size 128 \
+    --test_sh_path ./run_test_scene.sh \
+    --write_to_test_sh True \
+    --dataname scene \
+    --lr_decay_ratio 0.8 \
+    --lr_decay_times 4. \
+    --check_freq 20 \
+    --keep_prob 0.5
