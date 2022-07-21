@@ -63,11 +63,12 @@ One can further check the scripts under `scripts` folder, which contains tuned h
 If you find our paper interesting, or will use the datasets we collected, please cite our paper:
 
 ```bibtex
-@inproceedings{bai2020disentangled,
-  title={Disentangled Variational Autoencoder based Multi-Label Classification with Covariance-Aware Multivariate Probit Model},
+@inproceedings{bai2021disentangled,
+  title={Disentangled variational autoencoder based multi-label classification with covariance-aware multivariate probit model},
   author={Bai, Junwen and Kong, Shufeng and Gomes, Carla},
-  booktitle={Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI-20)},
-  year={2020}
+  booktitle={Proceedings of the Twenty-Ninth International Conference on International Joint Conferences on Artificial Intelligence},
+  pages={4313--4321},
+  year={2021}
 }
 ```
 
