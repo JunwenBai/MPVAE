@@ -24,7 +24,7 @@ A PyTorch implementation of MPVAE can be found [here](https://github.com/wenting
 ```git clone``` this repo to your local machine.
 
 ### Obtain and Process the Data
-All datasets can be downloaded from the Google [drive](https://drive.google.com/drive/folders/1TA2tOxXIr1wp0KWcPKICxYMFclJR_6od?usp=sharing).
+All datasets can be downloaded from the ~~Google [drive](https://drive.google.com/drive/folders/1TA2tOxXIr1wp0KWcPKICxYMFclJR_6od?usp=sharing)~~ Baidu [drive](https://pan.baidu.com/s/1yfah4vjh1NZjHxDwAcfqSg?pwd=qxx4).
 
 The downloaded datasets are already in the format that can be recognized by the code. 
 
